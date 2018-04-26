@@ -3,16 +3,12 @@ package giantbombsite.services;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.entity.StringEntity;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.mockito.Spy;
 
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.nio.file.Files;

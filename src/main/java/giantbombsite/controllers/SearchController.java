@@ -20,7 +20,7 @@ public class SearchController {
   @Autowired
   Gson gson;
 
-  @GetMapping("gameSearch")
+  @GetMapping("/gameSearch")
   public @ResponseBody SearchResponse gameSearch(@RequestParam String query,
                        @RequestParam(required = false, defaultValue = "1") int page) {
     return searchService.gameSearch(query, page);
